@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif; /* Elegant font */
+    line-height: 1.6;
+    color: #4b3f2f; /* Earthy brown */
+    background-color: #f4f1ea; /* Light beige */
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #a67c52; /* Earthy tan */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #8c6d45; /* Darker earthy tan */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700; /* Bold for emphasis */
+}
+
+/* Logo Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 120px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #eae4d3; /* Light earthy beige */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #8c6d45; /* Earthy tan */
+    font-weight: 700; /* Bold for headings */
+}
+
+section p, section ul {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #8c6d45; /* Earthy tan */
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #f4f1ea; /* Light beige */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    background: #d9c7b6; /* Soft earthy cream */
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#home h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #4b3f2f; /* Earthy brown */
+    font-weight: 700; /* Bold for emphasis */
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #8c6d45; /* Earthy tan */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background: #a67c52; /* Lighter earthy tan */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #home {
+        padding: 30px 10px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
