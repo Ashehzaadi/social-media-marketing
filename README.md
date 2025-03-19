@@ -1,4 +1,4 @@
-Welcome to our Social Media Marketing Website repository! This project is designed to help businesses and individuals grow their online presence through professional social media management, engagement strategies, branding, and campaign execution. Our platform caters to DJs, photographers, restaurants, and small businesses looking for effective digital marketing solutions.
+Welcome to our Social Media Marketing Website repository! This project is designed to help businesses and individuals grow their online presence through professional social media management, engagement strategies, branding, and campaign execution. Our platform caters to freelancers, professionals, brands and business owners looking for effective digital marketing solutions.
 
 Features
 
